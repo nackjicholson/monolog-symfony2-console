@@ -5,7 +5,7 @@ Monolog for Symfony2 Console Component output.
 
 Why? Because `StreamHandler` to `php://stdout` is ugly, and Symfony2 Console Output is pretty.
 
-Basic Usage:
+### Basic Usage:
 
 ```php
 $output = new \Symfony\Component\Console\Output\ConsoleOutput();
