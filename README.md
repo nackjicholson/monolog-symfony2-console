@@ -5,6 +5,16 @@ Monolog for Symfony2 Console Component output.
 
 Why? Because `StreamHandler` to `php://stdout` is ugly, and Symfony2 Console Output is pretty.
 
+### Install
+
+```
+"require": {
+    "nackjicholson/monolog-symfony2-console": "0.0.2"
+}
+```
+
+`composer require nackjicholson/monolog-symfony2-console:0.0.x`
+
 ### Basic Usage:
 
 ```php
