@@ -2,6 +2,7 @@
     "name": "nackjicholson/monolog-symfony2-console",
     "description": "Monolog for Symfony2 Console Component output.",
     "require": {
+        "php": ">=5.3.3",
         "psr/log": "1.0.0",
         "monolog/monolog": "1.10.x"
     },
