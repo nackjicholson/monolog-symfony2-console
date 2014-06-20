@@ -1,0 +1,24 @@
+{
+    "name": "nackjicholson/monolog-symfony2console-handler",
+    "description": "Monolog Handler for Symfony2 Console Component output.",
+    "require": {
+        "psr/log": "1.0.0",
+        "monolog/monolog": "1.10.x"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.x",
+        "symfony/console": "2.5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Log": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Vaughn",
+            "email": "willieviseoae@gmail.com"
+        }
+    ]
+}
