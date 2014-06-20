@@ -18,5 +18,13 @@ $consoleHandler->setFormatter($consoleFormatter);
 $logger = new \Monolog\Logger('channel');
 $logger->pushHandler($consoleHandler);
 
-$logger->critical('bagel'); // underlined white text on red background.
+$logger->debug('Debug Life');
+$logger->info('Just a little FYI');
+$logger->notice('A little something to see here');
+$logger->warning('Pay attention, be careful');
+$logger->error('Your program broke, it happens');
+$logger->critical('Oh my goodness, someone do something!');
+$logger->emergency('It is all on fire! You may be fired!');
 ```
+
+![example](https://cloud.githubusercontent.com/assets/365247/3337030/55beb6e2-f842-11e3-85c2-b90a5d2fbf13.gif)
