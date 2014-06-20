@@ -1,6 +1,6 @@
 {
-    "name": "nackjicholson/monolog-symfony2console-handler",
-    "description": "Monolog Handler for Symfony2 Console Component output.",
+    "name": "nackjicholson/monolog-symfony2-console",
+    "description": "Monolog for Symfony2 Console Component output.",
     "require": {
         "psr/log": "1.0.0",
         "monolog/monolog": "1.10.x"
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Log": "src"
+            "Nack": "src"
         }
     },
     "license": "MIT",

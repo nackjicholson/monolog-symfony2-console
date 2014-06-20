@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Log\Formatter;
+namespace Nack\Monolog\Formatter;
 
 
 class Symfony2ConsoleFormatterTest extends \PHPUnit_Framework_TestCase

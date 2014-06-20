@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Log\Formatter;
+namespace Nack\Monolog\Formatter;
 
 
 use Monolog\Formatter\FormatterInterface;

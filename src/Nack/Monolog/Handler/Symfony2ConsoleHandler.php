@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Log\Handler;
+namespace Nack\Monolog\Handler;
 
 
 use Monolog\Handler\AbstractProcessingHandler;
